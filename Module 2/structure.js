@@ -49,4 +49,9 @@ const fs = require('fs');
 
 // delete file 
 
-fs.unlinkSync("./test.txt");
+// fs.unlinkSync("./copy1.txt");
+
+
+// create folders
+
+// fs.mkdirSync("Module 3");
