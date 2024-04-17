@@ -1,0 +1,3 @@
+app.use(express.urlencoded({ extended: false }));
+
+what this will do is whenever there is data incoming from the server it shows it in the body
