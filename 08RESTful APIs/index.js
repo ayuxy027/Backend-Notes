@@ -8,7 +8,6 @@ const PORT = 3000;
 //Routes
 
 // To get a list of users and display their names
-
 app.get('/users', (req, res) => {
     const html = `<ul>
     ${users.map(user => `<li>${user.first_name}</li>`).join("")}
@@ -17,8 +16,16 @@ app.get('/users', (req, res) => {
     res.send(html);
 });
 
+// To get raw data of users
 app.get('/api/users', (req, res) => {
     return res.json(users);
+});
+
+// To get user by ID
+app.get('/api/users/:id', (req, res) => {
+    const id = Number(req.params.id);
+    const user = users.find(user => user.id === id);
+    return res.json(user);
 });
 
 // here we see at localhost:3000 and http://localhost:3000/api/users we can see the raw data
@@ -30,7 +37,7 @@ app.get('/api/users', (req, res) => {
 // Now for - GET /api/users/1 - get user with ID 1
 //           GET /api/users/2 - get user with ID 2
 
-// Here we can have unlimited number of users, so we have to make the ID Dynamic
+// Here we can have an unlimited number of users, so we have to make the ID Dynamic
 
 // This is called Dynamic Path Parameters
 
@@ -40,7 +47,4 @@ app.get('/api/users', (req, res) => {
 
 // :id this is a variable now 
 
-
-
 app.listen(PORT, () => console.log(`Server listening on PORT: ${PORT}`));
-
