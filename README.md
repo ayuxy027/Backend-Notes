@@ -24,12 +24,21 @@ Welcome to the <span style="text-decoration: underline">**Complete Backend Guide
 
 7. ### <span style="color:#2196F3">MongoDB</span>
     - <span style="font-style: italic">NoSQL database integration for data storage.</span>
+    - <span style="font-style: italic">Enable MongoDB authentication for enhanced security.</span>
 
-8. ### <span style="color:#2196F3">EJS</span>
-    - <span style="font-style: italic">Templating with Embedded JavaScript for dynamic pages.</span>
+8. ### <span style="color:#2196F3">AWS Lambda</span>
+    - <span style="font-style: italic">Serverless computing service for running code without provisioning or managing servers.</span>
+    - <span style="font-style: italic">Integrate AWS Lambda functions for scalable and cost-effective backend processing.</span>
 
-9. ### <span style="color:#2196F3">JWT Authentication</span>
-    - <span style="font-style: italic">Secure user authentication with JSON Web Tokens.</span>
+9. ### <span style="color:#2196F3">Redis</span>
+    - <span style="font-style: italic">In-memory data structure store used as a cache or message broker.</span>
+    - <span style="font-style: italic">Leverage Redis for fast data caching and efficient message queuing.</span>
 
-10. ### <span style="color:#2196F3">Socket.IO</span>
-    - <span style="font-style: italic">Real-time bidirectional communication for interactive apps.</span>
+10. ### <span style="color:#2196F3">Apache Kafka</span>
+    - <span style="font-style: italic">Distributed event streaming platform for building real-time data pipelines and streaming applications.</span>
+    - <span style="font-style: italic">Utilize Apache Kafka for high-throughput, fault-tolerant messaging in your backend architecture.</span>
+
+11. ### <span style="color:#2196F3">Socket.IO</span>
+    - <span style="font-style: italic">Real-time bidirectional communication for interactive web applications.</span>
+    - <span style="font-style: italic">Integrate Socket.IO for instant updates and interactive features in your backend services.</span>
+
