@@ -10,6 +10,20 @@ const PORT = 3000;
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json()); // Added middleware for parsing JSON bodies
 
+
+app.use((req, res, next) => {
+    console.log("What up")
+    // return res.json({Msg: "Hello from Middleware 1"});
+    next();
+});
+
+// Another Middleware here 
+
+// app.use((req, res, next) => {
+//     console.log("Ki Haal Chaal")
+//     res = res.json({Msg: "Chud gaye guru"});
+// });
+
 // Routes
 app.get('/users', (req, res) => {
     const html = `<ul>
