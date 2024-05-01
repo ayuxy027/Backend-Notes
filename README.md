@@ -41,4 +41,7 @@ Welcome to the <span style="text-decoration: underline">**Complete Backend Guide
 11. ### <span style="color:#2196F3">Socket.IO</span>
     - <span style="font-style: italic">Real-time bidirectional communication for interactive web applications.</span>
     - <span style="font-style: italic">Integrate Socket.IO for instant updates and interactive features in your backend services.</span>
+12. ### <span style="color:#2196F3">Web RTC</span>
+    - <span style="font-style: italic">Real-time bidirectional communication via FaceCam for interactive web applications and Web Apps.</span>
+    - <span style="font-style: italic">Integrate Web RTC for face authetications and interactive video chat features in your Projects.</span>
 
