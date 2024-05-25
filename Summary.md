@@ -18,3 +18,8 @@
 - Simplifies complex if else statements while creating API 
 - ExpressJS makes it easy to create complex backend servers via REST API Infrastructure.
 - We use Postman to test the requests created by API on the production server.
+
+## Express Middlewares
+
+- Middleware are the extra steps added to improve Performance, Authentication and Streamlining the entire process.
+-
